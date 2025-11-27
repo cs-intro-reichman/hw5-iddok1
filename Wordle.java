@@ -166,7 +166,8 @@ public class Wordle {
 
         if (!won) {
             // ... follow the assignment examples for how the printing should look like
-            System.out.println(secret);
+            System.out.println("Sorry, you did not guess the word.");
+            System.out.println("The secret word was: "+secret);
 
         }
 
